@@ -25,7 +25,7 @@ body {
 
 .fancybox {
 	background-color: var(--dark);
-	width: fit-content;
+	width: 20em;
 	padding: 1em;
 	border-radius: 7px;
 }
