@@ -54,24 +54,36 @@ body {
 	font-size: 50px;
 }
 .heading {
-    margin-left: auto;
-    margin-right: auto;
-    width: 70%;
     position: relative;
     overflow: hidden;
-    margin-bottom: 1em;
     border-radius: 10px;
 }
 
 .heading img {
     width: 100%;
-    transition: 0.5s all ease-in-out;
+    transition: 0.5s transform ease-in-out;
 }
 
 .heading:hover img {
     transform: scale(120%);
 }
 
-.heading:active {
-    filter: brightness(110%);
+.heading:active .centered-text {
+    transform: translate(-50%, calc(-50% + 2px));
+}
+
+.pull-out {
+    margin: auto auto 20px;
+    /* padding: 20px; */
+    border-radius: 10px;
+    width: 75%;
+    background-color: var(--dark);
+    text-align: center;
+    overflow: hidden;
+    transition: 0.5s height ease-in-out;
+}
+
+.content {
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
