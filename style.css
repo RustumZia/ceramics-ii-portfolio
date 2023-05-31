@@ -43,3 +43,35 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 }
+
+.centered-text {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-weight: bold;
+	text-shadow: black 0 0 10px;
+	font-size: 50px;
+}
+.heading {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 1em;
+    border-radius: 10px;
+}
+
+.heading img {
+    width: 100%;
+    transition: 0.5s all ease-in-out;
+}
+
+.heading:hover img {
+    transform: scale(120%);
+}
+
+.heading:active {
+    filter: brightness(110%);
+}
