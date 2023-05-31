@@ -27,11 +27,19 @@ body {
 	background-color: var(--dark);
 	width: 20em;
 	padding: 1em;
+    margin: 1em;
 	border-radius: 7px;
+    display: inline-block;
 }
 
 .fancybox-head {
     text-align: center;
     font-weight: bold;
     margin-bottom: 1em;
+}
+
+.center {
+	width: fit-content;
+	margin-left: auto;
+	margin-right: auto;
 }
