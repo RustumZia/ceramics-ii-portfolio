@@ -76,14 +76,32 @@ body {
     margin: auto auto 20px;
     /* padding: 20px; */
     border-radius: 10px;
-    width: 75%;
+    width: 500px;
     background-color: var(--dark);
     text-align: center;
     overflow: hidden;
-    transition: 0.5s height ease-in-out;
+    transition: 1s height ease-in-out;
 }
 
 .content {
     margin-top: 1em;
     margin-bottom: 1em;
+}
+
+.images {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.flex {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+#headers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
