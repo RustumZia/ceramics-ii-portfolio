@@ -60,7 +60,7 @@ body {
 }
 
 .heading img {
-    width: 100%;
+    width: 500px;
     transition: 0.5s transform ease-in-out;
 }
 
@@ -76,7 +76,7 @@ body {
     margin: auto auto 20px;
     /* padding: 20px; */
     border-radius: 10px;
-    width: 500px;
+    width: max(500px, 90%);
     background-color: var(--dark);
     text-align: center;
     overflow: hidden;
@@ -100,8 +100,10 @@ body {
 	justify-content: center;
 }
 
+/*
 #headers {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
+*/
