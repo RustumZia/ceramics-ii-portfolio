@@ -17,7 +17,8 @@ const allProjects = [
         `,
         images: [
             { src: "images/dragon_eye_mood_board.png",  caption: "inspiration mood board" },
-            { src: "images/dragon_eye_bisque.jpg",      caption: "bisque, unglazed" },
+            { src: "images/dragon_eye_wetclay.jpg",     caption: "wetclay; no texture" },
+            { src: "images/dragon_eye_bisque.jpg",      caption: "bisque; unglazed" },
             { src: "images/dragon_eye_finished_01.jpg", caption: "finished piece" },
             { src: "images/dragon_eye_finished_02.jpg", caption: "finished piece" },
         ]
@@ -42,6 +43,21 @@ const allProjects = [
             { src: "images/face_mug_finished_side_1.jpg",   caption: "finished; left side" },
             { src: "images/face_mug_finished_front.jpg",    caption: "finished; front view" },
         ]
+    },
+    {
+        code: "companions",
+        name: "Companions",
+        headerImage: "images/companions_04.jpg",
+        images: [
+            { src: "images/companions_00.jpg", caption: "WIP snake tray; I made two coils knowning that one of them would probably break off." },
+            { src: "images/companions_01.jpg", caption: "pots; side view" },
+            { src: "images/companions_02.jpg", caption: "pots; birds eye" },
+            { src: "images/companions_03.jpg", caption: "final snake tray" },
+            { src: "images/companions_04.jpg", caption: "flower pot; greenware" },
+        ],
+        reflection: `
+        My companion project was a plant pot and a tray, and I made two sets of companions. Both pots were built on the wheel. One is a flower pot and the other has a snake tray. I mistakenly bisque fired both of them before doing sgrafitto. This was very dissapointing and I wish I had time to redo this project.
+        `
     },
     {
         code: "wheel",
@@ -74,7 +90,7 @@ if not each time came vicisitude.
         name: "Canopic Jar",
         headerImage: "images/canopic_jar_wet_assembled_2.jpg",
         images: [
-            { src: "images/mood_board_canopic_jar.svg",          caption: "mood board", width: "600" },
+            { src: "images/mood_board_canopic_jar.png",          caption: "mood board", width: "600" },
             { src: "images/canopic_jar_model.jpg",               caption: "proof of concept for build technique" },
             { src: "images/canopic_jar_base_wet_top_wip.jpg",    caption: "building" },
             { src: "images/canopic_jar_base_wet_top.jpg",        caption: "top view" },
